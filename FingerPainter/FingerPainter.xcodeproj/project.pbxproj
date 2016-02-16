@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D9498E1A2CFBC7004736D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9498D1A2CFBC7004736D9 /* AppDelegate.swift */; };
+		16D949901A2CFBC7004736D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9498F1A2CFBC7004736D9 /* ViewController.swift */; };
+		16D949951A2CFBC7004736D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D949941A2CFBC7004736D9 /* Images.xcassets */; };
+		16D949981A2CFBC7004736D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D949961A2CFBC7004736D9 /* LaunchScreen.xib */; };
+		16D949A41A2CFBC7004736D9 /* FingerPainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D949A31A2CFBC7004736D9 /* FingerPainterTests.swift */; };
+		16D949AE1A2CFCA5004736D9 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D949AD1A2CFCA5004736D9 /* CanvasView.swift */; };
+		16F350EC1A2F9DBB00398CE0 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F350EB1A2F9DBB00398CE0 /* View.xib */; };
+		16F3511E1A2F9E8400398CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3511D1A2F9E8400398CE0 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16D9499E1A2CFBC7004736D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D949801A2CFBC7004736D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D949871A2CFBC7004736D9;
+			remoteInfo = FingerPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D949881A2CFBC7004736D9 /* FingerPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D9498C1A2CFBC7004736D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D9498D1A2CFBC7004736D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16D9498F1A2CFBC7004736D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16D949941A2CFBC7004736D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16D949971A2CFBC7004736D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16D9499D1A2CFBC7004736D9 /* FingerPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D949A21A2CFBC7004736D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D949A31A2CFBC7004736D9 /* FingerPainterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerPainterTests.swift; sourceTree = "<group>"; };
+		16D949AD1A2CFCA5004736D9 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		16F350EB1A2F9DBB00398CE0 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		16F3511D1A2F9E8400398CE0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D949851A2CFBC7004736D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D9499A1A2CFBC7004736D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D9497F1A2CFBC7004736D9 = {
+			isa = PBXGroup;
+			children = (
+				16D9498A1A2CFBC7004736D9 /* FingerPainter */,
+				16D949A01A2CFBC7004736D9 /* FingerPainterTests */,
+				16D949891A2CFBC7004736D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16D949891A2CFBC7004736D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D949881A2CFBC7004736D9 /* FingerPainter.app */,
+				16D9499D1A2CFBC7004736D9 /* FingerPainterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D9498A1A2CFBC7004736D9 /* FingerPainter */ = {
+			isa = PBXGroup;
+			children = (
+				16D9498D1A2CFBC7004736D9 /* AppDelegate.swift */,
+				16D9498F1A2CFBC7004736D9 /* ViewController.swift */,
+				16F3511D1A2F9E8400398CE0 /* Main.storyboard */,
+				16F350EB1A2F9DBB00398CE0 /* View.xib */,
+				16D949941A2CFBC7004736D9 /* Images.xcassets */,
+				16D949961A2CFBC7004736D9 /* LaunchScreen.xib */,
+				16D9498B1A2CFBC7004736D9 /* Supporting Files */,
+			);
+			path = FingerPainter;
+			sourceTree = "<group>";
+		};
+		16D9498B1A2CFBC7004736D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D9498C1A2CFBC7004736D9 /* Info.plist */,
+				16D949AD1A2CFCA5004736D9 /* CanvasView.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16D949A01A2CFBC7004736D9 /* FingerPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				16D949A31A2CFBC7004736D9 /* FingerPainterTests.swift */,
+				16D949A11A2CFBC7004736D9 /* Supporting Files */,
+			);
+			path = FingerPainterTests;
+			sourceTree = "<group>";
+		};
+		16D949A11A2CFBC7004736D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D949A21A2CFBC7004736D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D949871A2CFBC7004736D9 /* FingerPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D949A71A2CFBC7004736D9 /* Build configuration list for PBXNativeTarget "FingerPainter" */;
+			buildPhases = (
+				16D949841A2CFBC7004736D9 /* Sources */,
+				16D949851A2CFBC7004736D9 /* Frameworks */,
+				16D949861A2CFBC7004736D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerPainter;
+			productName = FingerPainter;
+			productReference = 16D949881A2CFBC7004736D9 /* FingerPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D9499C1A2CFBC7004736D9 /* FingerPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D949AA1A2CFBC7004736D9 /* Build configuration list for PBXNativeTarget "FingerPainterTests" */;
+			buildPhases = (
+				16D949991A2CFBC7004736D9 /* Sources */,
+				16D9499A1A2CFBC7004736D9 /* Frameworks */,
+				16D9499B1A2CFBC7004736D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D9499F1A2CFBC7004736D9 /* PBXTargetDependency */,
+			);
+			name = FingerPainterTests;
+			productName = FingerPainterTests;
+			productReference = 16D9499D1A2CFBC7004736D9 /* FingerPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D949801A2CFBC7004736D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Phillip Carter-Tracy";
+				TargetAttributes = {
+					16D949871A2CFBC7004736D9 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = F69WJ27LN4;
+					};
+					16D9499C1A2CFBC7004736D9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 16D949871A2CFBC7004736D9;
+					};
+				};
+			};
+			buildConfigurationList = 16D949831A2CFBC7004736D9 /* Build configuration list for PBXProject "FingerPainter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D9497F1A2CFBC7004736D9;
+			productRefGroup = 16D949891A2CFBC7004736D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D949871A2CFBC7004736D9 /* FingerPainter */,
+				16D9499C1A2CFBC7004736D9 /* FingerPainterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D949861A2CFBC7004736D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D949981A2CFBC7004736D9 /* LaunchScreen.xib in Resources */,
+				16F350EC1A2F9DBB00398CE0 /* View.xib in Resources */,
+				16D949951A2CFBC7004736D9 /* Images.xcassets in Resources */,
+				16F3511E1A2F9E8400398CE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D9499B1A2CFBC7004736D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D949841A2CFBC7004736D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D949901A2CFBC7004736D9 /* ViewController.swift in Sources */,
+				16D9498E1A2CFBC7004736D9 /* AppDelegate.swift in Sources */,
+				16D949AE1A2CFCA5004736D9 /* CanvasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D949991A2CFBC7004736D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D949A41A2CFBC7004736D9 /* FingerPainterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D9499F1A2CFBC7004736D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D949871A2CFBC7004736D9 /* FingerPainter */;
+			targetProxy = 16D9499E1A2CFBC7004736D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16D949961A2CFBC7004736D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D949971A2CFBC7004736D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D949A51A2CFBC7004736D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16D949A61A2CFBC7004736D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D949A81A2CFBC7004736D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FingerPainter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		16D949A91A2CFBC7004736D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FingerPainter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		16D949AB1A2CFBC7004736D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerPainter.app/FingerPainter";
+			};
+			name = Debug;
+		};
+		16D949AC1A2CFBC7004736D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerPainter.app/FingerPainter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D949831A2CFBC7004736D9 /* Build configuration list for PBXProject "FingerPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D949A51A2CFBC7004736D9 /* Debug */,
+				16D949A61A2CFBC7004736D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D949A71A2CFBC7004736D9 /* Build configuration list for PBXNativeTarget "FingerPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D949A81A2CFBC7004736D9 /* Debug */,
+				16D949A91A2CFBC7004736D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D949AA1A2CFBC7004736D9 /* Build configuration list for PBXNativeTarget "FingerPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D949AB1A2CFBC7004736D9 /* Debug */,
+				16D949AC1A2CFBC7004736D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16D949801A2CFBC7004736D9 /* Project object */;
+}

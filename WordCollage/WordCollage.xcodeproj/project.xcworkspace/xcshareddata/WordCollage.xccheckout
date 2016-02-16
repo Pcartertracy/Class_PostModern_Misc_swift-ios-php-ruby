@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD91839F-2D19-463A-8CF9-77B24229F7A9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WordCollage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7CBC7299383740AD276F39FE05D31CE53268B421</key>
+		<string>github.com:Pcartertracy/Postmodern.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WordCollage/WordCollage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7CBC7299383740AD276F39FE05D31CE53268B421</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Pcartertracy/Postmodern.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7CBC7299383740AD276F39FE05D31CE53268B421</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7CBC7299383740AD276F39FE05D31CE53268B421</string>
+			<key>IDESourceControlWCCName</key>
+			<string>src</string>
+		</dict>
+	</array>
+</dict>
+</plist>
